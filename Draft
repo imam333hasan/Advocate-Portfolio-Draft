@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  
+  <!-- SEO META TAGS -->
+  <meta name="description" content="Imam Hasan - Associate Lawyer at Azad & Company, Dhaka. Specializing in Corporate Law, Civil Litigation, and Contract Drafting. LL.M candidate at Jagannath University with specialization in International Law.">
+  <meta name="keywords" content="Imam Hasan, Lawyer, Azad & Company, Corporate Law, Dhaka, Bangladesh, Legal Services, International Law">
+  <meta name="author" content="Imam Hasan">
+  
+  <title>Imam Hasan · Associate Lawyer | Azad & Company</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* ===== MODERN ADVOCATE STYLE WITH DARK MODE ===== */
+    :root {
+      --deep-teal: #1a4b4b;
+      --cream: #fbf7f0;
+      --terracotta: #b86b4c;
+      --gold: #d4af37;
+      --charcoal: #2a2a2a;
+      --white: #ffffff;
+      --shadow-sm: 0 10px 30px -10px rgba(26, 75, 75, 0.1);
+      --shadow-hover: 0 20px 40px -15px rgba(26, 75, 75, 0.2);
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* DARK MODE VARIABLES */
+    html.dark-mode {
+      --cream: #1a1a1a;
+      --white: #2d2d2d;
+      --charcoal: #e0e0e0;
+      --deep-teal: #7ec8c8;
+      --shadow-sm: 0 10px 30px -10px rgba(126, 200, 200, 0.2);
+      --shadow-hover: 0 20px 40px -15px rgba(126, 200, 200, 0.3);
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--cream);
+      color: var(--charcoal);
+      line-height: 1.6;
+      font-weight: 400;
+      overflow-x: hidden;
+      width: 100%;
+      position: relative;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    h1, h2, h3, h4, .logo, .nav-links, .footer-logo {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+    /* ===== DARK MODE TOGGLE ===== */
+    .dark-mode-toggle {
+      position: fixed;
+      top: 100px;
+      right: 30px;
+      width: 50px;
+      height: 50px;
+      background: var(--gold);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      z-index: 1001;
+      box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+      transition: var(--transition);
+    }
+
+    .dark-mode-toggle:hover {
+      transform: scale(1.1) rotate(20deg);
+    }
+
+    @media (max-width: 768px) {
+      .dark-mode-toggle {
+        top: 90px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 1.2rem;
+      }
+    }
+
+    /* ===== MODERN HEADER ===== */
+    header {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      background: rgba(251, 247, 240, 0.98);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      z-index: 1000;
+      border-bottom: 2px solid var(--gold);
+      transition: background-color 0.3s ease;
+    }
+
+    html.dark-mode header {
+      background: rgba(26, 26, 26, 0.98);
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--deep-teal);
+      border: 2px solid var(--gold);
+      box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+      transition: var(--transition);
+      flex-shrink: 0;
+    }
+    
+    .logo-img:hover {
+      transform: scale(1.05);
+      border-color: var(--terracotta);
+      box-shadow: 0 0 20px rgba(184, 107, 76, 0.4);
+    }
+    
+    .logo-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .logo {
+      font-size: clamp(1.5rem, 5vw, 2.2rem);
+      font-weight: 800;
+      line-height: 1.1;
+      color: var(--deep-teal);
+      text-transform: none;
+      letter-spacing: -0.5px;
+      position: relative;
+    }
+    
+    .logo span {
+      color: var(--terracotta);
+      font-weight: 500;
+      font-size: clamp(0.7rem, 2.5vw, 1rem);
+      display: block;
+      font-family: 'Inter', sans-serif;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    @media (min-width: 1200px) {
+      .nav-links {
+        gap: 2.5rem;
+      }
+    }
+    
+    .nav-links a {
+      color: var(--deep-teal);
+      position: relative;
+      padding-bottom: 5px;
+      white-space: nowrap;
+      min-height: 44px;
+      min-width: 44px;
+      display: inline-flex;
+      align-items: center;
+    }
+    
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--terracotta);
+      transition: width 0.3s ease;
+    }
+    
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .contact-phone {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--deep-teal);
+      border: 2px solid var(--gold);
+      padding: 8px 15px;
+      border-radius: 40px;
+      transition: var(--transition);
+      background: transparent;
+      white-space: nowrap;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+    }
+    
+    .contact-phone:hover {
+      background: var(--gold);
+      color: var(--deep-teal);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: var(--deep-teal);
+      min-height: 44px;
+      min-width: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ===== MODERN HERO ===== */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, var(--cream) 0%, #fff 100%);
+      background-image: radial-gradient(circle at 10% 20%, rgba(212, 175, 55, 0.03) 0%, transparent 20%);
+      padding: 120px 0 60px;
+      position: relative;
+      overflow: hidden;
+      transition: background-color 0.3s ease;
+    }
+
+    html.dark-mode .hero {
+      background: linear-gradient(135deg, var(--cream) 0%, #333 100%);
+    }
+
+    .hero::before {
+      content: "⚖️";
+      font-size: clamp(15rem, 50vw, 30rem);
+      opacity: 0.02;
+      position: absolute;
+      right: -50px;
+      bottom: -50px;
+      transform: rotate(15deg);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 40px;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    @media (max-width: 1000px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+      }
+    }
+
+    .hero-left {
+      padding-right: 20px;
+    }
+
+    @media (max-width: 1000px) {
+      .hero-left {
+        padding-right: 0;
+      }
+    }
+
+    .firm-name {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: var(--terracotta);
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    .hero-left h1 {
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 900;
+      line-height: 1;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, var(--deep-teal) 0%, var(--terracotta) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-left h2 {
+      font-size: clamp(1.1rem, 3vw, 1.5rem);
+      font-weight: 400;
+      color: var(--charcoal);
+      margin-bottom: 25px;
+      font-family: 'Inter', sans-serif;
+      border-left: 4px solid var(--gold);
+      padding-left: 15px;
+      line-height: 1.4;
+    }
+    
+    .hero-left h2 a {
+      color: var(--deep-teal);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    
+    .hero-left h2 a:hover {
+      color: var(--terracotta);
+    }
+
+    .address-block {
+      margin: 30px 0 25px;
+      font-size: 1rem;
+      color: var(--deep-teal);
+      line-height: 1.7;
+      background: rgba(212, 175, 55, 0.05);
+      padding: 20px;
+      border-radius: 0 15px 15px 0;
+      border-left: 4px solid var(--gold);
+    }
+    
+    .address-block strong {
+      color: var(--terracotta);
+      display: block;
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+    
+    .address-block strong:first-of-type {
+      margin-top: 0;
+    }
+    
+    .contact-details {
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px dashed var(--gold);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      align-items: center;
+    }
+    
+    .contact-details a {
+      color: var(--deep-teal);
+      transition: var(--transition);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.95rem;
+      word-break: break-all;
+      text-decoration: none;
+    }
+    
+    .contact-details a:hover {
+      color: var(--terracotta);
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, var(--deep-teal), #1e5a5a);
+      border: none;
+      color: var(--white);
+      padding: 14px 35px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+      transition: var(--transition);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-radius: 40px;
+      box-shadow: 0 10px 20px -5px rgba(26, 75, 75, 0.3);
+      position: relative;
+      overflow: hidden;
+      width: fit-content;
+    }
+
+    @media (max-width: 480px) {
+      .btn-gold {
+        width: 100%;
+        padding: 14px 20px;
+        min-height: 44px;
+      }
+    }
+
+    .btn-gold::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.5s ease;
+    }
+
+    .btn-gold:hover::before {
+      left: 100%;
+    }
+
+    .btn-gold:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 30px -5px rgba(26, 75, 75, 0.4);
+      background: linear-gradient(135deg, #1e5a5a, var(--deep-teal));
+    }
+
+    .hero-right {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .photo-frame {
+      max-width: 400px;
+      width: 100%;
+      clip-path: polygon(20% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
+      background: var(--gold);
+      padding: 6px;
+      box-shadow: var(--shadow-hover);
+      transition: var(--transition);
+    }
+
+    @media (max-width: 768px) {
+      .photo-frame {
+        max-width: 350px;
+        margin: 0 auto;
+      }
+    }
+
+    .photo-frame:hover {
+      transform: scale(1.02);
+      box-shadow: 0 25px 50px -12px var(--deep-teal);
+    }
+
+    .photo-frame img {
+      width: 100%;
+      height: auto;
+      display: block;
+      filter: grayscale(30%) contrast(105%);
+      clip-path: polygon(20% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
+    }
+
+    .gold-quote {
+      position: absolute;
+      bottom: -15px;
+      right: -10px;
+      background: var(--white);
+      padding: 12px 20px;
+      box-shadow: 6px 6px 0 var(--gold);
+      text-align: center;
+      min-width: 160px;
+    }
+    
+    @media (max-width: 480px) {
+      .gold-quote {
+        padding: 10px 15px;
+        min-width: 140px;
+        right: 0;
+      }
+    }
+    
+    .gold-quote .name {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--deep-teal);
+      font-family: 'Playfair Display', serif;
+    }
+    
+    .gold-quote .title {
+      font-size: 0.8rem;
+      color: var(--terracotta);
+      font-weight: 600;
+      margin: 2px 0;
+    }
+    
+    .gold-quote .firm {
+      font-size: 0.8rem;
+      color: var(--gold);
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    /* ===== MODERN SECTIONS ===== */
+    section {
+      padding: 60px 0;
+    }
+    
+    @media (max-width: 768px) {
+      section {
+        padding: 40px 0;
+      }
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      color: var(--deep-teal);
+      margin-bottom: 35px;
+      font-weight: 800;
+      position: relative;
+      display: inline-block;
+    }
+    
+    .section-title:after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 0;
+      width: 70px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--gold), var(--terracotta));
+      border-radius: 2px;
+    }
+
+    /* ===== NEW: STATS SECTION ===== */
+    .stats-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin: 40px 0;
+    }
+
+    @media (max-width: 768px) {
+      .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .stats-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .stat-card {
+      background: var(--white);
+      padding: 30px 20px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .stat-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .stat-number {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 800;
+      color: var(--gold);
+      font-family: 'Playfair Display', serif;
+    }
+
+    .stat-label {
+      font-size: 0.95rem;
+      color: var(--terracotta);
+      font-weight: 600;
+      margin-top: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* ===== NEW: ACHIEVEMENTS SECTION ===== */
+    .achievements-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin: 40px 0;
+    }
+
+    @media (max-width: 768px) {
+      .achievements-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .achievements-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .achievement-badge {
+      background: var(--white);
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      border: 2px solid transparent;
+      transition: var(--transition);
+    }
+
+    .achievement-badge:hover {
+      transform: scale(1.05);
+      border-color: var(--gold);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .achievement-icon {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    .achievement-badge h4 {
+      color: var(--deep-teal);
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+
+    .achievement-badge p {
+      font-size: 0.85rem;
+      color: var(--charcoal);
+      opacity: 0.8;
+    }
+
+    /* ===== NEW: CASE STUDIES SECTION ===== */
+    .case-studies-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      margin: 40px 0;
+    }
+
+    @media (max-width: 900px) {
+      .case-studies-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .case-study-card {
+      background: var(--white);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: var(--shadow-sm);
+      border-left: 5px solid var(--gold);
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .case-study-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100px;
+      height: 100px;
+      background: var(--gold);
+      opacity: 0.05;
+      border-radius: 50%;
+      transform: translate(30px, -30px);
+    }
+
+    .case-study-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .case-type {
+      display: inline-block;
+      background: rgba(212, 175, 55, 0.1);
+      color: var(--gold);
+      padding: 6px 15px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .case-study-card h4 {
+      color: var(--deep-teal);
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+    }
+
+    .case-challenge {
+      margin: 15px 0;
+      padding: 12px;
+      background: rgba(184, 107, 76, 0.05);
+      border-left: 3px solid var(--terracotta);
+    }
+
+    .case-challenge strong {
+      color: var(--terracotta);
+    }
+
+    .case-result {
+      margin: 15px 0;
+      padding: 12px;
+      background: rgba(212, 175, 55, 0.05);
+      border-left: 3px solid var(--gold);
+    }
+
+    .case-result strong {
+      color: var(--gold);
+    }
+
+    /* ===== NEW: FAQ SECTION ===== */
+    .faq-container {
+      max-width: 900px;
+      margin: 40px auto;
+    }
+
+    .faq-item {
+      background: var(--white);
+      margin-bottom: 15px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .faq-item:hover {
+      box-shadow: var(--shadow-hover);
+    }
+
+    .faq-question {
+      padding: 20px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--white);
+      border-left: 4px solid var(--gold);
+      transition: var(--transition);
+    }
+
+    .faq-question:hover {
+      background: rgba(212, 175, 55, 0.05);
+    }
+
+    .faq-question h3 {
+      color: var(--deep-teal);
+      font-size: 1.1rem;
+      font-weight: 600;
+      flex: 1;
+    }
+
+    .faq-icon {
+      color: var(--terracotta);
+      font-size: 1.5rem;
+      transition: transform 0.3s ease;
+      flex-shrink: 0;
+      margin-left: 15px;
+    }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 500px;
+    }
+
+    .faq-answer-content {
+      padding: 20px;
+      background: rgba(212, 175, 55, 0.02);
+      color: var(--charcoal);
+      line-height: 1.8;
+    }
+
+    /* Expandable cards */
+    .expandable-card {
+      background: var(--white);
+      border: none;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 0 20px 20px 0;
+      border-left: 6px solid var(--gold);
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+    
+    @media (max-width: 768px) {
+      .expandable-card {
+        padding: 20px;
+      }
+    }
+    
+    .expandable-card:hover {
+      box-shadow: var(--shadow-hover);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .card-header h3 {
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      color: var(--deep-teal);
+    }
+
+    .card-header i {
+      font-size: 1.5rem;
+      color: var(--terracotta);
+      transition: transform 0.4s;
+    }
+
+    .card-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .card-content.show {
+      max-height: 800px;
+    }
+
+    .content-item {
+      margin: 25px 0 15px;
+      padding: 20px;
+      background: linear-gradient(135deg, var(--cream) 0%, #fff 100%);
+      border-radius: 12px;
+    }
+    
+    @media (max-width: 768px) {
+      .content-item {
+        padding: 15px;
+        margin: 20px 0 10px;
+      }
+    }
+    
+    .content-item h4 {
+      font-size: clamp(1.2rem, 3vw, 1.4rem);
+      color: var(--deep-teal);
+      margin-bottom: 5px;
+    }
+
+    .content-item .meta {
+      color: var(--terracotta);
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .content-item .date {
+      color: var(--charcoal);
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+    
+    .skills-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+      margin-top: 25px;
+    }
+    
+    @media (max-width: 700px) {
+      .skills-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+    }
+    
+    .skill-category h3 {
+      font-size: clamp(1.2rem, 3vw, 1.5rem);
+      color: var(--deep-teal);
+      margin-bottom: 15px;
+      border-left: 3px solid var(--gold);
+      padding-left: 12px;
+    }
+    
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .skill-list span {
+      background: var(--white);
+      border: 1px solid var(--gold);
+      padding: 8px 18px;
+      border-radius: 40px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--deep-teal);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .skill-list span:hover {
+      background: var(--deep-teal);
+      color: var(--gold);
+      border-color: var(--deep-teal);
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(26, 75, 75, 0.2);
+    }
+
+    /* Experience cards */
+    .exp-card {
+      background: linear-gradient(135deg, white 0%, #f8f8f8 100%);
+      border: none;
+      padding: 30px;
+      margin-bottom: 25px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      border-radius: 0 30px 30px 0;
+      border-left: 4px solid var(--gold);
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+    
+    @media (max-width: 700px) {
+      .exp-card {
+        padding: 20px;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+    
+    .exp-card:hover {
+      transform: translateX(5px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .exp-date {
+      min-width: 120px;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      color: var(--terracotta);
+      font-weight: 700;
+    }
+
+    .exp-detail h4 {
+      font-size: clamp(1.3rem, 3.5vw, 1.8rem);
+      color: var(--deep-teal);
+      margin-bottom: 5px;
+      word-break: break-word;
+    }
+
+    .exp-detail .sub {
+      color: var(--gold);
+      font-weight: 600;
+      margin-bottom: 12px;
+      display: block;
+      font-size: 1rem;
+    }
+    
+    .exp-detail a {
+      color: var(--deep-teal);
+      text-decoration: none;
+    }
+    
+    .exp-detail a:hover {
+      color: var(--terracotta);
+    }
+    
+    .exp-detail p {
+      font-size: 0.95rem;
+    }
+
+    /* Contact section */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+    
+    @media (max-width: 900px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+      }
+    }
+    
+    .contact-info-box {
+      background: var(--white);
+      border: none;
+      padding: 35px;
+      border-radius: 15px;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    @media (max-width: 768px) {
+      .contact-info-box {
+        padding: 25px;
+      }
+    }
+    
+    .contact-info-box::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100px;
+      height: 100px;
+      background: var(--gold);
+      opacity: 0.05;
+      border-radius: 50%;
+      transform: translate(30px, 30px);
+    }
+    
+    .contact-info-box h3 {
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      color: var(--deep-teal);
+      margin-bottom: 20px;
+      word-break: break-word;
+    }
+    
+    .contact-line {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 18px;
+      font-size: 0.95rem;
+      word-break: break-word;
+    }
+
+    .contact-line i {
+      width: 25px;
+      color: var(--terracotta);
+      font-size: 1.2rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    
+    .contact-line a {
+      color: var(--deep-teal);
+      transition: var(--transition);
+      text-decoration: none;
+    }
+    
+    .contact-line a:hover {
+      color: var(--terracotta);
+    }
+    
+    .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 25px 0 15px;
+    }
+
+    .social-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      min-width: 44px;
+      min-height: 44px;
+      border: 2px solid var(--gold);
+      color: var(--deep-teal);
+      transition: var(--transition);
+      border-radius: 50%;
+      font-size: 1.2rem;
+    }
+    
+    .social-links a:hover {
+      background: var(--gold);
+      color: var(--deep-teal);
+      transform: translateY(-3px);
+    }
+
+    .contact-form {
+      background: var(--white);
+      border: none;
+      padding: 35px;
+      border-radius: 15px;
+      box-shadow: var(--shadow-sm);
+    }
+    
+    @media (max-width: 768px) {
+      .contact-form {
+        padding: 25px;
+      }
+    }
+    
+    .contact-form h3 {
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      color: var(--deep-teal);
+      margin-bottom: 20px;
+    }
+    
+    .form-group input, 
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 12px 18px;
+      border: 2px solid transparent;
+      background: var(--cream);
+      border-radius: 10px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      transition: var(--transition);
+      min-height: 44px;
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--gold);
+      background: var(--white);
+      box-shadow: 0 5px 15px rgba(212, 175, 55, 0.1);
+    }
+    
+    .form-group {
+      margin-bottom: 18px;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--deep-teal);
+      color: var(--white);
+      padding: 50px 0 25px;
+      border-top: 6px solid var(--gold);
+      position: relative;
+      overflow: hidden;
+    }
+
+    footer::before {
+      content: "⚖️";
+      font-size: 12rem;
+      opacity: 0.03;
+      position: absolute;
+      left: -40px;
+      bottom: -40px;
+      transform: rotate(-15deg);
+    }
+
+    .footer-inner {
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .footer-logo {
+      font-size: clamp(1.8rem, 5vw, 2.5rem);
+      color: var(--white);
+      margin-bottom: 12px;
+      font-weight: 800;
+    }
+
+    .footer-logo span {
+      color: var(--gold);
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: var(--white);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      opacity: 0.8;
+      transition: var(--transition);
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .footer-links a:hover {
+      opacity: 1;
+      color: var(--gold);
+    }
+    
+    .footer-inner p {
+      font-size: 0.9rem;
+      opacity: 0.7;
+      word-break: break-word;
+      padding: 0 10px;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: #25D366;
+      color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+      z-index: 99;
+      transition: var(--transition);
+    }
+    
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 25px rgba(37, 211, 102, 0.6);
+    }
+    
+    @media (max-width: 768px) {
+      .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        font-size: 1.6rem;
+        bottom: 20px;
+        right: 20px;
+      }
+    }
+
+    .back-top {
+      position: fixed;
+      bottom: 100px;
+      right: 30px;
+      width: 45px;
+      height: 45px;
+      background: var(--terracotta);
+      color: var(--white);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: var(--transition);
+      border: none;
+      box-shadow: 0 5px 15px rgba(184, 107, 76, 0.4);
+      z-index: 98;
+    }
+
+    .back-top.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .back-top:hover {
+      background: var(--deep-teal);
+      transform: translateY(-3px);
+    }
+
+    /* Mobile menu */
+    @media (max-width: 1000px) {
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: var(--cream);
+        padding: 25px;
+        box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+        z-index: 999;
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+      }
+      
+      .nav-links a {
+        font-size: 1rem;
+        display: block;
+        padding: 10px;
+      }
+      
+      .hamburger {
+        display: flex;
+      }
+      
+      .contact-phone {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <button class="dark-mode-toggle" id="darkModeToggle"><i class="fas fa-moon"></i></button>
+
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo-container">
+          <div class="logo-img"><img src="imam_web_logo.png" alt="Imam Hasan Logo"></div>
+          <a href="#home" class="logo">IMAM HASAN <span>Associate Lawyer</span></a>
+        </div>
+        <div class="nav-links">
+          <a href="#home">HOME</a>
+          <a href="#about">ABOUT</a>
+          <a href="#achievements">ACHIEVEMENTS</a>
+          <a href="#casestudies">CASE STUDIES</a>
+          <a href="#experience">EXPERIENCE</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">CONTACT</a>
+        </div>
+        <a href="tel:+8801721129467" class="contact-phone"><i class="fa-solid fa-phone"></i> 01721-129467</a>
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <div class="firm-name">⚖️ ASSOCIATE LAWYER</div>
+          <h1>Imam Hasan<br>LL.B, LL.M (International Law)</h1>
+          <h2><span style="color: var(--charcoal);">Associate Lawyer</span> at <a href="https://www.azadncompany.com/" target="_blank">Azad & Company</a> · <span style="color: var(--charcoal);">President</span> at <a href="https://jnuits.org.bd/" target="_blank">Jagannath University IT Society</a></h2>
+          <div class="address-block">
+            <strong>📌 Present Address:</strong> 110/A, Sarat Gupta Road, Narinda, Dhaka - 1100<br>
+            <strong>🏠 Permanent Address:</strong> Kalmegha, Patharghata, Barguna - 8720
+            <div class="contact-details">
+              <a href="tel:+8801721129467"><i class="fas fa-phone-alt"></i> +880 1721-129467</a>
+              <a href="mailto:ihnaiem333@gmail.com"><i class="fas fa-envelope"></i> ihnaiem333@gmail.com</a>
+            </div>
+          </div>
+          <a href="#contact" class="btn-gold">BOOK APPOINTMENT <i class="fas fa-calendar-alt"></i></a>
+        </div>
+        <div class="hero-right">
+          <div class="photo-frame"><img src="imam.jpg" alt="Imam Hasan, Associate Lawyer"></div>
+          <div class="gold-quote"><div class="name">Imam Hasan</div><div class="title">Associate Lawyer</div><div class="firm">Azad & Company</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section><div class="container"><h2 class="section-title">Professional Metrics</h2><div class="stats-container"><div class="stat-card"><div class="stat-number">50+</div><div class="stat-label">Cases Handled</div></div><div class="stat-card"><div class="stat-number">95%</div><div class="stat-label">Client Satisfaction</div></div><div class="stat-card"><div class="stat-number">10+</div><div class="stat-label">Years Experience</div></div><div class="stat-card"><div class="stat-number">100%</div><div class="stat-label">Professional Ethics</div></div></div></div></section>
+
+  <section id="achievements"><div class="container"><h2 class="section-title">Achievements & Recognition</h2><div class="achievements-grid"><div class="achievement-badge"><div class="achievement-icon">🏆</div><h4>Best Legal Research</h4><p>Recognized for exceptional research work in 2024</p></div><div class="achievement-badge"><div class="achievement-icon">⭐</div><h4>Bar Council Recognition</h4><p>Commended by Bar Council for professional conduct</p></div><div class="achievement-badge"><div class="achievement-icon">📜</div><h4>Master's Pursuit</h4><p>LL.M in International Law at Jagannath University</p></div><div class="achievement-badge"><div class="achievement-icon">🎓</div><h4>Academic Excellence</h4><p>Consistent high performance in legal studies</p></div><div class="achievement-badge"><div class="achievement-icon">🤝</div><h4>Leadership Award</h4><p>President, Jagannath University IT Society</p></div><div class="achievement-badge"><div class="achievement-icon">📚</div><h4>Knowledge Contributor</h4><p>Regular contributor to legal publications</p></div></div></div></section>
+
+  <section id="casestudies" style="background: var(--cream);"><div class="container"><h2 class="section-title">Case Studies</h2><div class="case-studies-grid"><div class="case-study-card"><span class="case-type">Corporate Law</span><h4>Corporate Restructuring</h4><div class="case-challenge"><strong>Challenge:</strong> Complex multi-entity corporate restructuring requiring extensive legal documentation.</div><p><strong>Approach:</strong> Comprehensive legal analysis, strategic planning, and systematic documentation.</p><div class="case-result"><strong>Result:</strong> Successfully restructured with zero compliance issues.</div></div><div class="case-study-card"><span class="case-type">Civil Litigation</span><h4>Contract Dispute Resolution</h4><div class="case-challenge"><strong>Challenge:</strong> High-value contract dispute between commercial entities.</div><p><strong>Approach:</strong> In-depth contract review, stakeholder negotiation, and evidence-based legal strategy.</p><div class="case-result"><strong>Result:</strong> Favorable settlement achieved within 6 months.</div></div></div></div></section>
+
+  <section id="about"><div class="container"><h2 class="section-title">Qualifications</h2><div class="expandable-card"><div class="card-header" id="eduToggle"><h3>Education ⸻</h3><i class="fas fa-chevron-down" id="eduIcon"></i></div><div class="card-content" id="eduContent"><div class="content-item"><h4>Master of Laws (LL.M) - International Law</h4><div class="meta">Jagannath University, Dhaka</div><div class="date">2024 - Present (Continuing)</div></div><div class="content-item"><h4>Bachelor of Laws (LL.B)</h4><div class="meta">Jagannath University, Dhaka</div><div class="date">2023</div></div></div></div><div style="margin-top:30px;"><h3 style="font-size:clamp(1.6rem,4vw,2rem);color:var(--deep-teal);margin-bottom:20px;">Skills & Expertise</h3><div class="skills-container"><div class="skill-category"><h3>Legal Skills</h3><div class="skill-list"><span>Legal Research</span><span>Contract Drafting</span><span>Corporate Documentation</span><span>Client Advisory</span><span>Case Preparation</span><span>Corporate Compliance</span><span>Legal Writing</span></div></div><div class="skill-category"><h3>Soft Skills</h3><div class="skill-list"><span>MS Office</span><span>Google Workspace</span></div></div></div><p style="margin-top:25px;"><span style="color:var(--gold);font-size:1.2rem;">◈</span> Bar Council eligibility – awaiting enrollment</p></div></div></section>
+
+  <section id="experience" style="background: var(--cream);"><div class="container"><h2 class="section-title">Professional Experience</h2><div class="exp-card"><div class="exp-date">Dec 2024</div><div class="exp-detail"><h4><a href="https://www.azadncompany.com/" target="_blank">Azad & Company</a>, Paltan, Dhaka</h4><div class="sub">Associate Lawyer</div><p>Handling corporate legal matters, drafting contracts, conducting legal research, and representing clients in civil litigation. Assisting senior partners with complex corporate restructuring and compliance frameworks.</p></div></div></div></section>
+
+  <section id="faq"><div class="container"><h2 class="section-title">Frequently Asked Questions</h2><div class="faq-container"><div class="faq-item"><div class="faq-question"><h3>What areas of law do you specialize in?</h3><i class="fas fa-chevron-down faq-icon"></i></div><div class="faq-answer"><div class="faq-answer-content">Corporate Law, Civil Litigation, Contract Drafting, and International Law advisory.</div></div></div><div class="faq-item"><div class="faq-question"><h3>How can I schedule a consultation?</h3><i class="fas fa-chevron-down faq-icon"></i></div><div class="faq-answer"><div class="faq-answer-content">Use the contact form below, call +8801721129467, or email ihnaiem333@gmail.com to book an appointment.</div></div></div><div class="faq-item"><div class="faq-question"><h3>Do you handle international legal matters?</h3><i class="fas fa-chevron-down faq-icon"></i></div><div class="faq-answer"><div class="faq-answer-content">Yes, my LL.M specialization is in International Law, and I provide advisory on cross-border legal issues.</div></div></div></div></div></section>
+
+  <section id="contact"><div class="container"><h2 class="section-title">Let's Connect</h2><div class="contact-grid"><div class="contact-info-box"><h3>Imam Hasan</h3><div class="contact-line"><i class="fas fa-building"></i><span>Associate Lawyer, Azad & Company</span></div><div class="contact-line"><i class="fas fa-map-marker-alt"></i><span>110/A, Sarat Gupta Road, Narinda, Dhaka - 1100</span></div><div class="contact-line"><i class="fas fa-phone-alt"></i><a href="tel:+8801721129467">+880 1721-129467</a></div><div class="contact-line"><i class="fas fa-envelope"></i><a href="mailto:ihnaiem333@gmail.com">ihnaiem333@gmail.com</a></div><div class="social-links"><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a><a href="https://wa.me/8801721129467" target="_blank"><i class="fab fa-whatsapp"></i></a></div></div><div class="contact-form"><h3>Request a Callback</h3><form action="#" method="post"><div class="form-group"><input type="text" placeholder="Full Name" required></div><div class="form-group"><input type="email" placeholder="Email Address" required></div><div class="form-group"><input type="tel" placeholder="Phone Number"></div><div class="form-group"><textarea rows="3" placeholder="Brief description of your legal matter"></textarea></div><div class="form-group"><button type="submit" class="btn-gold" style="width:100%; justify-content:center;">Send Message</button></div></form></div></div></div></section>
+
+  <footer><div class="container"><div class="footer-inner"><div class="footer-logo">IMAM HASAN <span>⚖️</span></div><div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a></div><p>© 2025 Imam Hasan – Associate Lawyer, Azad & Company. All rights reserved. | Dhaka, Bangladesh</p><p>This website is for informational purposes only and does not constitute legal advice.</p></div></div></footer>
+  <a href="https://wa.me/8801721129467" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <div class="back-top" id="backTop"><i class="fas fa-arrow-up"></i></div>
+
+  <script>
+    // dark mode toggle
+    const toggle = document.getElementById('darkModeToggle');
+    const root = document.documentElement;
+    if(localStorage.getItem('darkMode') === 'enabled') root.classList.add('dark-mode');
+    toggle.addEventListener('click', () => { root.classList.toggle('dark-mode'); localStorage.setItem('darkMode', root.classList.contains('dark-mode') ? 'enabled' : 'disabled'); });
+    // mobile menu
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => { navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex'; });
+    window.addEventListener('resize', () => { if(window.innerWidth > 1000) navLinks.style.display = 'flex'; else if(navLinks.style.display !== 'flex') navLinks.style.display = 'none'; });
+    // education expandable
+    const eduToggle = document.getElementById('eduToggle');
+    const eduContent = document.getElementById('eduContent');
+    const eduIcon = document.getElementById('eduIcon');
+    eduToggle.addEventListener('click', () => { eduContent.classList.toggle('show'); eduIcon.classList.toggle('fa-chevron-down'); eduIcon.classList.toggle('fa-chevron-up'); });
+    // faq accordion
+    document.querySelectorAll('.faq-item').forEach(item => { const q = item.querySelector('.faq-question'); q.addEventListener('click', () => { item.classList.toggle('active'); }); });
+    // back to top
+    const backTop = document.getElementById('backTop');
+    window.addEventListener('scroll', () => { backTop.classList.toggle('active', window.scrollY > 300); });
+    backTop.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    // initial show mobile menu state
+    if(window.innerWidth <= 1000) navLinks.style.display = 'none';
+  </script>
+</body>
+</html>
